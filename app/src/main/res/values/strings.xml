@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JustCalendar1</string>
+    <string name="selected_date_range">Selected Date Range</string>
+    <string name="open_dialog">Open Calendar</string>
+    <string name="add_note">Add note</string>
+    <string name="help">help</string>
+    <string name="newNote">new note</string>
 </resources>

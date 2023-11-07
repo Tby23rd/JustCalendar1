@@ -47,7 +47,8 @@ public class NoteEditorActivity extends AppCompatActivity {
                 MainActivity.arrayAdapter.notifyDataSetChanged();
                 // Creating Object of SharedPreferences to store data in the phone
                 SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("com.example.notes", Context.MODE_PRIVATE);
-                HashSet<String> set = new HashSet(MainActivity.notes);
+                HashSet<String> set;
+                set = new HashSet<>(MainActivity.notes);
                 sharedPreferences.edit().putStringSet("notes", set).apply();
             }
 
